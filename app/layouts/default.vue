@@ -1,10 +1,11 @@
 <script lang='ts' setup>
-console.log('Loaded')
+
 </script>
 
 
 <template>
-    <section>
+    <section class='grid' style='min-height: 100vh'>
+        <LayoutSidebar />
         <div>
             <slot />
         </div>
@@ -12,4 +13,9 @@ console.log('Loaded')
 
 </template>
 
-<style scoped></style>
+<style scoped>
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+</style>
