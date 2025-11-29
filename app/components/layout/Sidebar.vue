@@ -1,5 +1,6 @@
 <script lang='ts'>
 
+
 </script>
 
 <template>
@@ -7,6 +8,6 @@
         <NuxtLink to="/" class="mb-10 block">
             <NuxtImg src='/logo.png' alt="" width="100px" class="mx-auto"/>
         </NuxtLink>
-        <UiButton />
+        <UiButton>Send</UiButton>
     </aside>
 </template>
