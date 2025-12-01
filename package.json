@@ -23,6 +23,8 @@
     "vue-router": "^4.6.3"
   },
   "devDependencies": {
+    "@iconify-json/line-md": "^1.2.11",
+    "@nuxt/icon": "^2.1.0",
     "@nuxtjs/google-fonts": "^3.2.0",
     "shadcn-nuxt": "^2.3.3",
     "tailwindcss": "^3.4.18"

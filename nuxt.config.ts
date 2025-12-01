@@ -18,6 +18,7 @@ export default defineNuxtConfig({
         }
       }
     ],
+    '@nuxt/icon',
   ],
   css: ['./app/assets/css/main.css'],
   shadcn: {

@@ -8,6 +8,11 @@
         <NuxtLink to="/" class="mb-10 block">
             <NuxtImg src='/logo.png' alt="" width="100px" class="mx-auto"/>
         </NuxtLink>
-        <UiButton>Send</UiButton>
+        <button
+            class="absolute top-2 right-3 transition-colors hover:text-primary"
+            @click="$emit('toggleSidebar')"
+            >
+            <Icon name="line-md:logout" size="22"/>
+        </button>
     </aside>
 </template>
